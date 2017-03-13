@@ -1,5 +1,6 @@
+----------
 # 利用Hexo生成博客并部署到Github
-
+----------
 >* [环境准备](#环境准备)
 >* [安装Hexo并初始化站点](#安装hexo并初始化站点)
 >* [部署到Github Pages](#部署到github)
@@ -7,11 +8,11 @@
 >* [请开始你的表演](#请开始你的表演)
 >* [Tips](#tips)
 
-## 环境准备
+# 环境准备
 ### 1.安装Git
 ### 2.安装Node.js
 
-## 安装Hexo并初始化站点
+# 安装Hexo并初始化站点
 ### 1.准备工作
   新建MD文件夹（下文以建在D盘的MD文件夹为例），在该目录下右键选择**Git Bash Here**
 ### 2.设置npm淘宝镜像
@@ -34,7 +35,7 @@ $ hexo s
 ```
 服务运行起来之后，打开浏览器，输入<http://localhost:4000/>即可打开Hexo的默认页面
 
-## 部署到Github
+# 部署到Github
 ### 1.新建仓库
 登录[Github](https://github.com "Github")，创建一个repository，名称必须是——**用户名.github.io**
 ### 2.修改配置文件
@@ -65,7 +66,7 @@ $ hexo d
 ```
 deploy之后报错，继续看下一步
 
-## 设置SSH
+# 设置SSH
 ### 1.检查是否已经存在SSH keys
 ```
 $ ls -al ~/.ssh
@@ -103,10 +104,10 @@ $ hexo g
 $ hexo d
 ```
 
-## 请开始你的表演
+# 请开始你的表演
 打开浏览器输入<https://用户名.github.io/>，比如<https://chen-rhythm.github.io/>，然后……就没有然后了
 
-## Tips
+# Tips
 - 做到一半不会做，需要重新搭建的，请删除C:\Users\PC目录下的**.gitconfig**文件和**.SSH**文件夹，以及MD目录下的**hexo**文件夹
 
 ## [***>>点此回到开头<<***](#利用hexo生成博客并部署到github)
